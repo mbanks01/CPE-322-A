@@ -31,7 +31,7 @@ $ ifconfig
 $ ping localhost
 $ netstat
 ```
-##Commands:
+## Commands:
 - `hostname` : displays device name
 - `env` : 
 - `ps` : 
