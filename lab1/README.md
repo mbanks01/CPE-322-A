@@ -10,6 +10,8 @@
 ![1.1.png]
 ![/lab1/1.1.png]
 
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.1.PNG)
+
 ## Install GHDL and GTKWave:
 > Quote text
 
