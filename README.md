@@ -2,7 +2,7 @@
 
 # Engineering Design VI
 
-- [x] Lab 1
+- [x] [Lab 1](https://github.com/mbanks01/EE-322-A/tree/main/lab1)
 - [ ] Lab 2
 - [ ] Lab 3
 - [ ] Lab 4
