@@ -21,6 +21,8 @@ $ cd vhdl
 $ cp ~/dsd/ghdl/*vhdl .
 ```
 *Cloned the repo and copied the .vhdl files into new directory "vhdl"*
+
+
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.1.PNG)
 
 ##Hello World Example
@@ -47,9 +49,16 @@ $ ghdl -r ha_tb --vcd=ha.vcd
 $ gtkwave ha.vcd
 ```
 *Running the half adder example.*
+
+
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.3.PNG)
+
+
 Running this code opened the following window:
+
+
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.4.PNG)
+
 
 ## Run another example:
 ```
@@ -60,5 +69,9 @@ $ ghdl -r dff_tb --vcd=dff.vcd
 $ gtkwave dff.vcd
 ```
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.5.PNG)
+
+
 Running this opened the following window:
+
+
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.6.PNG)
