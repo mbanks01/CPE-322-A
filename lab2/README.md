@@ -1,5 +1,8 @@
 # Lab 2 - Command Line
+
+
 ## Objectives:
+
 - Go to the IoT repository
 - Study Lessons 1 and 2
 - Open a terminal
