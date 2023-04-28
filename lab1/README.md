@@ -32,7 +32,11 @@ $ ghdl -e hello_world
 $ ghdl -r hello_world
 ```
 *This was the first test using ghdl.*
+
+
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.2.PNG)
+
+
 
 ## Run the Half Adder example:
 ```
