@@ -10,4 +10,4 @@ $ pip install paho-mqtt
 ```
 *Added to Environment Variables Path*
 
-![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.1.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab5/1.1.PNG)
