@@ -25,7 +25,7 @@ $ cp ~/dsd/ghdl/*vhdl .
 
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.1.PNG)
 
-##Hello World Example
+## Hello World Example
 ```
 $ ghdl -h
 $ ghdl -v
