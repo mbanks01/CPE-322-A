@@ -10,6 +10,6 @@
 - [x] [Lab 7](https://github.com/mbanks01/EE-322-A/tree/main/lab7)
 - [ ] [Lab 8](https://github.com/mbanks01/EE-322-A/tree/main/lab8)
 - [x] [Lab 9](https://github.com/mbanks01/EE-322-A/tree/main/lab9)
-- [ ] [Lab 10](https://github.com/mbanks01/EE-322-A/tree/main/lab10)
+- [x] [Lab 10](https://github.com/mbanks01/EE-322-A/tree/main/lab10)
 
 ### [IoT Repository](https://github.com/kevinwlu/iot)
