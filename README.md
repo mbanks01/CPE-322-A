@@ -8,7 +8,7 @@
 - [x] [Lab 5](https://github.com/mbanks01/EE-322-A/tree/main/lab5)
 - [x] [Lab 6](https://github.com/mbanks01/EE-322-A/tree/main/lab6)
 - [x] [Lab 7](https://github.com/mbanks01/EE-322-A/tree/main/lab7)
-- [ ] [Lab 8](https://github.com/mbanks01/EE-322-A/tree/main/lab8)
+- [x] [Lab 8](https://github.com/mbanks01/EE-322-A/tree/main/lab8)
 - [x] [Lab 9](https://github.com/mbanks01/EE-322-A/tree/main/lab9)
 - [x] [Lab 10](https://github.com/mbanks01/EE-322-A/tree/main/lab10)
 
