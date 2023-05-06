@@ -157,6 +157,5 @@ Collecting certifi>=2017.4.17 (from requests>=2.0.0->requests-oauthlib>=0.7.0->g
 Installing collected packages: urllib3, pyasn1, oauthlib, idna, httplib2, charset-normalizer, certifi, cachetools, rsa, requests, pyasn1-modules, requests-oauthlib, oauth2client, google-auth, google-auth-oauthlib, gspread
 Successfully installed cachetools-5.3.0 certifi-2022.12.7 charset-normalizer-3.1.0 google-auth-2.17.3 google-auth-oauthlib-1.0.0 gspread-5.8.0 httplib2-0.22.0 idna-3.4 oauth2client-4.1.3 oauthlib-3.2.2 pyasn1-0.5.0 pyasn1-modules-0.3.0 requests-2.30.0 requests-oauthlib-1.3.1 rsa-4.9 urllib3-2.0.2
 ```
-## Running '$ python3 thingspeak_feed.py'
-
+## Running `$ python3 thingspeak_feed.py` with Write API Key
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab7/1.2.PNG)
