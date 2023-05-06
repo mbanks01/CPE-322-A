@@ -1,5 +1,6 @@
 # Lab 7 — ThingSpeak and Google Sheets
 ## Objectives:
+- Study the GitHub repository [Lesson 7](https://github.com/kevinwlu/iot/tree/master/lesson7)
 - Sign up and log in MathWorks ThingSpeak
 - Run thingspeak_cpu_loop.py or thinkspeak_feed.py in a demo folder
 - Install gspread and oauth2client
