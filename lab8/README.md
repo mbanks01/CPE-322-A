@@ -9,5 +9,14 @@
 
 ## Install Python packages
 
-
+## Run plt_cv2.py
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/1.1.PNG)
+
+
+## Run plt_final.py
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig1.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig2.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig3.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig4.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig5.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/fig6.PNG)
