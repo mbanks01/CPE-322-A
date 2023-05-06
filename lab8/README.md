@@ -10,4 +10,4 @@
 ## Install Python packages
 
 
-![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab1/1.6.PNG)
+![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab8/1.1.PNG)
