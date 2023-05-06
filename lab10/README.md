@@ -111,9 +111,9 @@ Press CTRL+C to quit
 127.0.0.1 - - [06/May/2023 16:04:59] "GET /mine HTTP/1.1" 200 -
 ```
 ### "SnakeCoin Server" now running on [http://127.0.0.1:5000/](http://127.0.0.1:5000)
-![image](https://github.com/mbanks01/CPE-322-A/main/lab10/1.2.png)
+![image](https://github.com/mbanks01/CPE-322-A/blob/main/lab10/1.2.PNG)
 ### Terminal 2 - Create a transaction and mine a new block at [http://127.0.0.1:5000/mine](http://127.0.0.1:5000/mine)
-![image](https://github.com/mbanks01/CPE-322-A/main/lab10/1.1.png)
+![image](https://github.com/mbanks01/CPE-322-A/blob/main/lab10/1.1.PNG)
 ```
 $ curl "localhost:5000/txion" \
      -H "Content-Type: application/json" \
