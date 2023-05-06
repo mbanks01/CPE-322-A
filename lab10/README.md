@@ -124,6 +124,35 @@ $ curl localhost:5000/mine
 ## Clone Python blockchain app and uncomment the last line of node_server.py
 ### Terminal 1: Uncomment the last line of node_server.py
 ```
+$ python3 snakecoin-server-full-code.py
+ * Serving Flask app 'snakecoin-server-full-code'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/May/2023 16:20:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:20:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:21:38] "POST /txion HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:21:44] "GET /mine HTTP/1.1" 200 -
+```
+```
+$ curl "localhost:5000/txion" \
+> -H "Content-Type: application/json" \
+> -d '{"from": "akjflw", "to":"fjlakdj", "amount": 3}'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    81  100    34  100    47  21026  29066 --:--:-- --:--:-- --:--:-- 81000Transaction submission successful
+
+
+$ curl localhost:5000/mine
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   322  100   322    0     0   192k      0 --:--:-- --:--:-- --:--:--  314k{"index": 1, "timestamp": "2023-05-06 16:21:44.057443", "data": {"proof-of-work": 18, "transactions": [{"from": "akjflw", "to": "fjlakdj", "amount": 3}, {"from": "network", "to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 1}]}, "hash": "7737bc6032fe70de6903d2ad68e5a5ff4448990230778d23ab961f5b5d12f33f"}
+```
+
+### Terminal 2: Run run_app.py
+
+```
 $ python3 run_app.py
  * Serving Flask app 'app'
  * Debug mode: on
@@ -133,19 +162,6 @@ Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 294-414-302
-```
-### Terminal 2: Run run_app.py
-```
-$ python3 snakecoin-server-full-code.py
- * Serving Flask app 'snakecoin-server-full-code'
- * Debug mode: off
-WARNING: This is a development server. Do not use it in a production deployment. Use a nstead.
- * Running on http://127.0.0.1:5000
-Press CTRL+C to quit
-127.0.0.1 - - [06/May/2023 16:04:33] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2023 16:04:33] "GET /favicon.ico HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2023 16:04:59] "GET /mine HTTP/1.1" 200 -
-127.0.0.1 - - [06/May/2023 16:15:01] "GET / HTTP/1.1" 200 -
 ```
 
 ## Run node_server.py on Terminal 1 and run_app.py on Terminal 2
