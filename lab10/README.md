@@ -122,7 +122,31 @@ $ curl localhost:5000/mine
 ```
 
 ## Clone Python blockchain app and uncomment the last line of node_server.py
-
+### Terminal 1: Uncomment the last line of node_server.py
+```
+$ python3 run_app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 294-414-302
+```
+### Terminal 2: Run run_app.py
+```
+$ python3 snakecoin-server-full-code.py
+ * Serving Flask app 'snakecoin-server-full-code'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a nstead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [06/May/2023 16:04:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:04:33] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:04:59] "GET /mine HTTP/1.1" 200 -
+127.0.0.1 - - [06/May/2023 16:15:01] "GET / HTTP/1.1" 200 -
+```
 
 ## Run node_server.py on Terminal 1 and run_app.py on Terminal 2
-
+![image](https://github.com/mbanks01/CPE-322-A/blob/main/lab10/1.3.PNG)
