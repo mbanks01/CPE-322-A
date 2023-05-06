@@ -25,14 +25,13 @@ The hash for Python is: -1638959576483072430
 The hash for a tuple of vowels is: 1917975463167930686
 The hash for an object of person is: -3466059058047159078
 ```
+### Hashes for 1, 1.0, and 3.14 stayed the same.
 ### Hashes for Python, Tuple, and Object changed:
 |     Hash For         |     First Run        |      Second Run      |
 | -------------------- | -------------------- | -------------------- |
 |       Python         | -513330691104508829  | -1638959576483072430 |
 |   tuple of vowels    | -1261226560690955229 |  1917975463167930686 |
 |   object of person   | -7700208450287719401 | -3466059058047159078 |
-
-### Hashes for 1, 1.0, and 3.14 stayed the same.
 
 ## Run `snakecoin.py`
 
