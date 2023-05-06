@@ -1,6 +1,6 @@
 # Lab 1 — GHDL and GTKWave
 ## Objectives:
-- Go to the GitHub repository of Digital System Design (DSD)
+- Go to the GitHub repository of [Digital System Design (DSD)](https://github.com/kevinwlu/dsd)
   - Study VHDL and GHDL
 - Go to the GHDL folder
   - Install GHDL and GTKWave
