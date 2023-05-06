@@ -1,5 +1,6 @@
 # Lab 3 — Python
 ## Objectives:
+- Study the GitHub repository [Lesson 3](https://github.com/kevinwlu/iot/tree/master/lesson3) labs
 - Install required Python packages such as jdcal, astral, and geopy
 ```
 $ cd ~/iot
