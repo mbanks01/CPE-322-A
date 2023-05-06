@@ -1,5 +1,4 @@
 # CPE-322-A
-
 # Engineering Design VI
 
 - [x] [Lab 1](https://github.com/mbanks01/EE-322-A/tree/main/lab1)
@@ -13,16 +12,5 @@
 - [x] [Lab 9](https://github.com/mbanks01/EE-322-A/tree/main/lab9)
 - [ ] [Lab 10](https://github.com/mbanks01/EE-322-A/tree/main/lab10)
 
-**bold text**
-*italicized text*
 
-> quote
-
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-
-This site was built using [GitHub Pages](https://pages.github.com/).
+## [IoT Repository]([https://pages.github.com/](https://github.com/kevinwlu/iot)).
