@@ -1,5 +1,6 @@
 # Lab 1 — Node.js and Pystache
 ## Objectives:
+- Study the GitHub repository [Lesson 6](https://github.com/kevinwlu/iot/tree/master/lesson6)
 - Install Node.js and run hello-world.js, hello.js, and http.js
   - Refresh the webpage to see server activities
 - Install Pystache and run say_hello.py that uses the template in say_hello.mustache
