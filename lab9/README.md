@@ -339,8 +339,7 @@ $ python3 -m plantuml intrusiondetection.uml
 [{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
 
-```
 ## Run PlantUML to generate intrusiondetection.png
-```
+
 ![intrusiondetection](https://github.com/mbanks01/CPE-322-A/blob/main/lab9/intrusiondetection.png)
-```
+
