@@ -2,7 +2,7 @@
 # Engineering Design VI
 
 - [x] [Lab 1](https://github.com/mbanks01/EE-322-A/tree/main/lab1)
-- [ ] [Lab 2](https://github.com/mbanks01/EE-322-A/tree/main/lab2)
+- [x] [Lab 2](https://github.com/mbanks01/EE-322-A/tree/main/lab2)
 - [x] [Lab 3](https://github.com/mbanks01/EE-322-A/tree/main/lab3)
 - [ ] [Lab 4](https://github.com/mbanks01/EE-322-A/tree/main/lab4)
 - [ ] [Lab 5](https://github.com/mbanks01/EE-322-A/tree/main/lab5)
