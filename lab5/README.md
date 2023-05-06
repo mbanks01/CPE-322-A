@@ -1,8 +1,13 @@
 # Lab 5 — Paho-MQTT
 ## Objectives:
+- Study the GitHub repository [Lesson 5](https://github.com/kevinwlu/iot/tree/master/lesson5) labs
 - Install Paho-MQTT
-  - Run python3 subcpu.py on one Terminal
-  - Run python3 pubcpu.py on another
+-Change directory to the iot repository
+-Update the repository with git pull
+-Change directory to Lesson 5
+-Run python3 subcpu.py on one Terminal
+-Run python3 pubcpu.py on another
+
 
 ## Install Paho-MQTT:
 ```
