@@ -159,3 +159,5 @@ Successfully installed cachetools-5.3.0 certifi-2022.12.7 charset-normalizer-3.1
 ```
 ## Running `$ python3 thingspeak_feed.py` with Write API Key
 ![sample image](https://github.com/mbanks01/EE-322-A/blob/main/lab7/1.2.PNG)
+
+## ![Google Spreadsheet](https://docs.google.com/spreadsheets/d/1bHjOKGg1OsUZyHVR-MQYjF1T3VqPI-Mr_ilejmav138/edit?usp=sharing)
