@@ -129,21 +129,22 @@ ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/micha/bin:/c/Program Files/Common F
 OLDPWD=/c/Users/micha/iot/lesson10
 _=/usr/bin/env
 ```
-- `ps` : 
-```
+- `ps` : shows process status
+
 $ ps
+```
       PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
      2288    2287    2288      18556  pty1      197609 15:29:19 /usr/bin/bash
 S    2286       1    2286      21304  pty0      197609 15:28:46 /usr/bin/nano
      2665    2288    2665      24116  pty1      197609 17:33:06 /usr/bin/ps
      2287       1    2287      13252  ?         197609 15:29:19 /usr/bin/mintty
 ```
-- `pwd` : 
+- `pwd` : prints working directory
 ```
 $ pwd
 /c/Users/micha
 ```
-- `git clone` : 
+- `git clone` : clones a git repo do files, needs link to repo to work.
 ```
 $ git clone
 fatal: You must specify a repository to clone.
@@ -195,14 +196,14 @@ usage: git clone [<options>] [--] <repo> [<dir>]
     --remote-submodules   any cloned submodules will use their remote-tracking branch
     --sparse              initialize sparse-checkout file to include only files at root
 ```
-- `cd iot` : 
+- `cd iot` : directs to the 'iot' directory
 ```
 micha@LAPTOP-1LNLL4EL MINGW64 ~
 $ cd iot
 
 micha@LAPTOP-1LNLL4EL MINGW64 ~/iot (master)
 ```
-- `ls` : 
+- `ls` : lists the items within a directory (items within iot repo)
 ```
 micha@LAPTOP-1LNLL4EL MINGW64 ~/iot (master)
 $ ls
@@ -211,12 +212,13 @@ apps/       hype/      lesson3/  lesson7/  projects/          tools/
 cases/      lesson1/   lesson4/  lesson8/  special_problems/
 economics/  lesson10/  lesson5/  lesson9/  standards/
 ```
-- `cd` : 
+- `cd` : cd will go back one directory (~/iot -> ~/)
 ```
 micha@LAPTOP-1LNLL4EL MINGW64 ~/iot (master)
 $ cd
+micha@LAPTOP-1LNLL4EL MINGW64 ~ (master)
 ```
-- `df` : 
+- `df` : displays file system information
 ```
 $ df
 Filesystem           1K-blocks      Used Available Use% Mounted on
@@ -250,20 +252,55 @@ hello
 
 - `rm file2` : deletes "file2"
 
-- `clear` : 
+- `clear` : clears the screen from previous inputs.
 
-- `man uname` : 
+- `man uname` : manual uname, prints system information
+
+- `uname -a` : prints system information ('-a' = all)
 ```
+$ uname -a
+MINGW64_NT-10.0-19044 LAPTOP-1LNLL4EL 3.1.7-340.x86_64 2021-10-12 16:29 UTC x86_64 Msys
 ```
-- `uname -a` : 
+- `ifconfig` : displays all network configurations (ex. ip addresses), (ipconfig on windows)
+
+- `ping localhost` :  sends a packet to network 'localhost'
 ```
+$ ping localhost
+
+Pinging LAPTOP-1LNLL4EL [::1] with 32 bytes of data:
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
-- `ifconfig` : 
+- `netstat` : displays network statistics (connections, routing tables, etc.)
 ```
-```
-- `ping localhost` : 
-```
-```
-- `netstat` :
-```
+$ netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:9010         laytheme:22988         ESTABLISHED
+  TCP    127.0.0.1:9010         laytheme:23027         ESTABLISHED
+  TCP    127.0.0.1:9100         laytheme:22959         ESTABLISHED
+  TCP    127.0.0.1:22915        laytheme:65001         ESTABLISHED
+  TCP    127.0.0.1:22958        laytheme:49821         ESTABLISHED
+  TCP    127.0.0.1:22959        laytheme:9100          ESTABLISHED
+  TCP    127.0.0.1:22988        laytheme:9010          ESTABLISHED
+  TCP    127.0.0.1:23027        laytheme:9010          ESTABLISHED
+  TCP    127.0.0.1:24065        laytheme:28194         SYN_SENT
+  TCP    127.0.0.1:49821        laytheme:22958         ESTABLISHED
+  TCP    127.0.0.1:65001        laytheme:22915         ESTABLISHED
+  TCP    192.168.1.161:22916    ec2-18-209-201-158:https  ESTABLISHED
+  TCP    192.168.1.161:22950    162.159.136.234:https  ESTABLISHED
+  TCP    192.168.1.161:22995    52.159.127.243:https   ESTABLISHED
+  TCP    192.168.1.161:23583    a23-216-132-33:https   CLOSE_WAIT
+  TCP    192.168.1.161:23746    lb-140-82-114-25-iad:https  ESTABLISHED
+  TCP    192.168.1.161:23772    a104-71-130-48:https   CLOSE_WAIT
+  TCP    192.168.1.161:23856    cdn-185-199-109-154:https  ESTABLISHED
 ```
