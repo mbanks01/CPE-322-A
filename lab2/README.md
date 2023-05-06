@@ -3,8 +3,8 @@
 
 ## Objectives:
 
-- Go to the IoT repository
-- Study Lessons 1 and 2
+- Go to the [IoT repository](https://github.com/kevinwlu/iot)
+- Study Lessons [1](https://github.com/kevinwlu/iot/tree/master/lesson1) and [2](https://github.com/kevinwlu/iot/tree/master/lesson2)
 - Open a terminal
 Enter the following commands:
 ```
