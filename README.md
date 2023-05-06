@@ -13,4 +13,4 @@
 - [ ] [Lab 10](https://github.com/mbanks01/EE-322-A/tree/main/lab10)
 
 
-## [IoT Repository]([https://pages.github.com/](https://github.com/kevinwlu/iot)).
+### [IoT Repository]([https://pages.github.com/](https://github.com/kevinwlu/iot)).
