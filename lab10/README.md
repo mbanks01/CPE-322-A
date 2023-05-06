@@ -27,7 +27,7 @@ The hash for an object of person is: -3466059058047159078
 ```
 ### Hashes for Python, Tuple, and Object changed:
 |     Hash For         |     First Run        |      Second Run      |
-|       Python         | -------------------- | -------------------- |
+| -------------------- | -------------------- | -------------------- |
 |       Python         | -513330691104508829  | -1638959576483072430 |
 |   tuple of vowels    | -1261226560690955229 |  1917975463167930686 |
 |   object of person   | -7700208450287719401 | -3466059058047159078 |
